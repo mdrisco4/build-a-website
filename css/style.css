@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+}
+header {
+    background-color: rgb(238, 209,71);
+    margin: 0;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+h4 {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+nav {
+    text-align: center;
+}
+
+
+
+.grid-stats {
+    background-color: rgb(19, 21, 22);
+    margin: 0;
+}
+
+
+
+.scrolling-images img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+section.card-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    text-align: center;
+}
+article.card {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 150%;
+    border: 10px solid black;
+    margin: 35px;
+    align-items: center;
+}
+
+
+
+.flex-locations {
+    display: flex;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+}
+.flex-locations img{
+    width: 100%;
+    height: auto;
+}
+.flex-locations .addresses {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.flex-locations .place-1 {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+.flex-locations .place-2 {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+
+
+
+.grid-schedule {
+    background-color: rgb(51, 51, 51);
+    margin: 0;
+}
+.column
+.h3-h1-p-grid-schedule h3, h1 {
+    color: white;
+}
+.grid-schedule p {
+    color: rgb(125, 125, 125);
+}
+.grid-schedule .column-1 {
+    display: flex;
+    flex-direction: column;
+}
+.grid-schedule .column-2 {
+    display: flex;
+    flex-direction: column;
+}
+.event {
+    color: rgb(176, 176, 176);
+}
+.column-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.column-1 .schedule-items {
+    height: 40px;
+    width: 75px;
+}
+.column-2 .schedule-items {
+    height: 40px;
+    width: 75px;
+}
+.schedule-items {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.faq {
+    background-color: rgb(238, 238, 238);
+}
+.faq h1 {
+    color: black;
+    font-size: 36px;
+}
+
+
+
+.h3-h1-p-nav-thank-you {
+    background-color: rgb(248, 209, 71);
+}
+
+
+
+.email-prompt {
+    background-color: rgb(19, 21, 22);
+    color: rgb(153, 153, 153);
+}
