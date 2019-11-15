@@ -26,36 +26,100 @@ nav {
 
 
 
-.grid-stats {
-    background-color: rgb(19, 21, 22);
-    margin: 0;
-}
 
 
 
 .scrolling-images img{
     width: 100%;
     height: auto;
+    margin: 0;
 }
 
 
+.grid-stats {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(19, 21, 22);
+    margin: 0;
+    justify-content: center;
+}
+.grid-column-1 {
+    display: flex;
+    flex-direction: column;
+    width: 25%
+}
+.grid-column-1 h1{
+    color: yellow;
+    font-size: 45px;
+    margin: 0;
+} 
+.grid-column-2 {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+.grid-column-2 h4{
+    color: white;
+    margin: 0;
+} 
+.grid-column-2 p{
+    color: white;
+    margin: 0;
+} 
+.grid-column-3 {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+.grid-column-3 h1{
+    color: yellow;
+    font-size: 45px;
+    margin: 0;
+} 
+.grid-column-4 {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+.grid-column-4 h4{
+    color: white;
+    margin: 0;
+}
+.grid-column-4 p{
+    color: white;
+    margin: 0;
+}
 
-section.card-container {
+
+.instructor-container{
+    /*border: solid blue 10px;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*section.card-container {
     display: flex;
     flex-direction: column;
     max-width: 50%;
     text-align: center;
-}
+    border: red solid 10px;
+}*/
 article.card {
     display: flex;
     flex-direction: column;
     height: auto;
-    width: 150%;
-    border: 10px solid black;
-    margin: 35px;
+    width: 60%;
+    border: 5px solid black;
+    margin: 60px;
     align-items: center;
 }
-
+.name {
+    font-size: 40px;
+    font-weight: 800;
+}
+.speciality {
+    font-size: 40px;
+}
 
 
 .flex-locations {
@@ -80,10 +144,22 @@ article.card {
     flex-direction: column;
     width: 35%;
 }
+.flex-locations .place-1 h3{
+text-align: left;
+}
+.flex-locations .place-1 p{
+    text-align: left;
+}
 .flex-locations .place-2 {
     display: flex;
     flex-direction: column;
     width: 35%;
+}
+.flex-locations .place-2 h3{
+    text-align: left;
+}
+.flex-locations .place-2 p{
+    text-align: left;
 }
 
 
@@ -91,8 +167,8 @@ article.card {
 .grid-schedule {
     background-color: rgb(51, 51, 51);
     margin: 0;
+    border: 3px solid red;
 }
-.column
 .h3-h1-p-grid-schedule h3, h1 {
     color: white;
 }
@@ -132,12 +208,27 @@ article.card {
 
 .faq {
     background-color: rgb(238, 238, 238);
+    margin: 0;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.q-and-a {
+    border: 3px solid black;
 }
 .faq h1 {
     color: black;
     font-size: 36px;
 }
-
+.faq h4 {
+    text-align: left;
+    width: 50%;
+}
+.faq p {
+    text-align: left;
+    width: 50%;
+    color: rgb(128, 128, 128);
+}
 
 
 .h3-h1-p-nav-thank-you {
