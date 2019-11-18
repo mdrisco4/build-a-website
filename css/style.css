@@ -49,7 +49,7 @@ nav {
     background-color: rgb(19, 21, 22);
     margin: 0;
     justify-content: center;
-    border-top: 60px solid rgb(19, 21, 22);
+    border-top: 70px solid rgb(19, 21, 22);
     border-bottom: 60px solid rgb(19, 21, 22);
 }
 .grid-column-1 {
@@ -138,6 +138,10 @@ article.card {
 }
 .reserve-seats {
     /*text-align: left;*/
+    padding: 20px 25px;
+    margin-bottom: 10px;
+    border: 5px solid black;
+
 }
 .footnote {
     border-top: 5px solid black;
@@ -155,36 +159,76 @@ article.card {
     flex-direction: column;
     margin: 0;
 }
-.flex-locations img{
-    width: 100%;
-    height: auto;
-}
 .flex-locations .addresses {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
+.flex-locations img{
+    width: 100%;
+    height: auto;
+}
+.flex-locations h1 {
+    font-size: 70px;
+    margin: 10px 0 20px;
+    /*border: 5px solid red;*/
+}
+.flex-locations h3 {
+    font-size: 35px;
+    margin: 40px 0 10px;
+    /*border: 5px solid red;*/
+}
+/*.flex-locations .venue-prompt {
+    display: flex;
+    text-align: center;
+    width: 60%;
+}*/
+/*.flex-locations .addresses {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}*/
 .flex-locations .place-1 {
     display: flex;
     flex-direction: column;
     width: 35%;
+    /*border: 5px solid red;*/
 }
-.flex-locations .place-1 h3{
-text-align: left;
-}
-.flex-locations .place-1 p{
+.flex-locations .place-1 h2{
     text-align: left;
+}
+.flex-locations .place-1 p {
+    text-align: left;
+    color: rgb(128, 128, 128);
 }
 .flex-locations .place-2 {
     display: flex;
     flex-direction: column;
     width: 35%;
+    /*border: 5px solid red;*/
 }
-.flex-locations .place-2 h3{
+.flex-locations .place-2 h2{
     text-align: left;
 }
 .flex-locations .place-2 p{
     text-align: left;
+    color: rgb(128, 128, 128);
+}
+.place-1 a {
+    color: rgb(34, 34, 34);
+    background-color: rgb(249, 209, 71);
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+.place-2 a {
+    color: rgb(34, 34, 34);
+    background-color: rgb(249, 209, 71);
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
 }
 
 
@@ -199,6 +243,8 @@ text-align: left;
 }
 .grid-schedule p {
     color: rgb(125, 125, 125);
+    margin-left: 15%;
+    margin-right: 15%;
 }
 .grid-schedule .column-1 {
     display: flex;
@@ -234,12 +280,13 @@ text-align: left;
 .faq {
     background-color: rgb(238, 238, 238);
     margin: 0;
-    border: 3px solid black;
+    /*border: 3px solid black;*/
     display: flex;
     flex-direction: column;
 }
 .q-and-a {
-    border: 3px solid black;
+    /*border: 3px solid black;*/
+    padding-left: 18%;
 }
 .faq h1 {
     color: black;
@@ -247,22 +294,53 @@ text-align: left;
 }
 .faq h4 {
     text-align: left;
-    width: 50%;
+    width: 80%;
 }
 .faq p {
     text-align: left;
-    width: 50%;
+    width: 80%;
     color: rgb(128, 128, 128);
 }
 
 
 .h3-h1-p-nav-thank-you {
-    background-color: rgb(248, 209, 71);
+    background-color: white;
+    border: 5px solid white;
+}
+.h3-h1-p-nav-thank-you h1{
+color: black;
 }
 
 
+.skill-camp {
+    background-color:  rgb(248, 209, 71);    
+    border: 5px solid rgb(248, 209, 71);;
+}
+.skill-camp h1 {
+    color: black;
+}
 
-.email-prompt {
-    background-color: rgb(19, 21, 22);
+
+footer {
+    background-color:  black;
+    border: 5px solid black;
     color: rgb(153, 153, 153);
 }
+h5 {
+    text-align: center;
+}
+
+
+.copyright {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: rgb(102, 102, 102);
+    justify-content: space-between;
+}
+/*footer .closer-1 {
+    margin-left: 10px;
+}
+footer .closer-2 {
+    margin-right: 10px;
+}*/
